@@ -1,0 +1,16 @@
+# basic data params
+seq_length: 30
+num_signals: 1
+normalise: False
+
+# model params
+noise_dim: 8
+hidden_dim: 128
+kappa: 1 # weight between final output and intermediate steps in discriminator cost (1 = all intermediate', default=1)
+degree: 1 # norm degree
+
+# options pertaining to training
+learning_rate: 0.0002
+batch_size: 32
+epochs: 10
+        

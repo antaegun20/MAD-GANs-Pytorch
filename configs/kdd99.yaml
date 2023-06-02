@@ -1,0 +1,30 @@
+train:
+    seq_length: 30
+    num_signals: 6
+    normalise: False
+    scale: 0.1
+    freq_low: 1.0
+    freq_high: 5.0
+    amplitude_low: 0.1
+    amplitude_high: 0.9
+    resample_rate_in_min: 15
+    lambda: 0.5
+    degree: 1
+    seq_step: 10
+    feature_dim: 35
+
+test:
+    seq_length: 30
+    num_signals: 6
+    normalise: False
+    scale: 0.1
+    freq_low: 1.0
+    freq_high: 5.0
+    amplitude_low: 0.1
+    amplitude_high: 0.9
+    resample_rate_in_min: 15
+    lambda: 0.5
+    degree: 1
+    seq_step: 10
+    feature_dim: 35
+    
